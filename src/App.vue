@@ -5,9 +5,28 @@
       <br />
       <div id="name"> I am Hemant Singh Bisht. </div>
       <br />
-      <div id="introduction"> A software engineer with ~2 years of experience in building responsive and modular web-applicat
-      ions using various JavaScript frameworks such as React.js and Vue.js, is eager to use his techn
-      ical skills in building the future of web. </div>
+      <div id="introduction"> 
+        A software engineer with ~2 years of experience in building responsive and modular web-appl
+        ications using various JavaScript frameworks such as React.js and Vue.js, is eager to use 
+        his technical skills in building the future of web.
+
+        <br />
+        <br />
+
+        I wanted to be a magician ever since I saw that transparent-body cathode-ray-tube monitor, 
+        back in 2006, and wrote my first magical glittery-moving-text HTML on it. So, Here I am wor
+        king as an associate magician in a booming company with a few tricks up my sleeve. 
+        
+        <br />
+        <br />
+
+        Wanna see some magic? <a id="link-linkedin" href="https://www.linkedin.com/in/bishthemant96/"> Contact me. </a> 
+
+      </div>
+    </div>
+
+    <div id="image-introduction"> 
+      <img id="image" src="./assets/display.jpg"/>
     </div>
   </div>
 </template>
@@ -33,6 +52,19 @@ export default {
     width: 50%;
   }
 
+  #image-introduction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 50%;
+  }
+
+  #image {
+    width: 500px;
+    height: 500px;
+  }
+
   #salutation {
     width: auto;
 
@@ -50,5 +82,9 @@ export default {
   #introduction {
     text-align: justify;
     text-justify: inter-word;
+  }
+
+  #link-linkedin {
+    text-decoration: none;
   }
 </style>>
